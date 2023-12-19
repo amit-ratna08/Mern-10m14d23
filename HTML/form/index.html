@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form</title>
+</head>
+<body>
+    <form action="#">
+        <!-- NAME :size="2"maxlength="3" value="dsdsd" readonly -->
+        <label for="fname">NAME :</label>
+        <input type="text" id="fname" name="username" placeholder="Enter a name" required >
+        <br><br>
+
+<label for="unumber">NUMBER</label>
+<input type="number" id="unumber" name="userno" placeholder="Enter a number">
+<br>
+<br>
+<label for="psd">PASSWORD</label>
+<input type="password" id="psd" name="userpass">
+<br>
+<br>
+
+<label>GENDER :</label>
+<br>
+<label for="male">MALE</label>
+<input type="radio" id="male" name="gender" value="male">
+
+<label for="female">FEMALE</label>
+<input type="radio" id="female" name="gender" value="female">
+
+<br><br>
+
+<label>Course</label>
+<br>
+<label for="html">HTML</label>
+<input type="checkbox" id="html" name="course1" value="html">
+
+<label for="css">CSS</label>
+<input type="checkbox" id="css" name="course2" value="css">
+
+<br><br>
+<input type="file">
+<input type="date">
+
+<br><br>
+
+<label for="country">COUNTRY</label>
+<select name="selectcountry" id="country">
+    <option>--NONE--</option>
+    <option value="india" selected>INDIA</option>
+    <option value="nepal">NEPAl</option>
+</select>
+
+<br><br>
+<label for="fullinfo">FULLDATA</label>
+<textarea name="userinfo" id="fullinfo" cols="10" rows="10"></textarea>
+
+
+        <br>
+        <br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>
